@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <center>
+        <div class='cont'>
+            <h2>WELCOME<br> To Plants Leaves Classification </h2>
+        </div>
+
+
+        <div>
+            <form action="/predict" method="POST" enctype="multipart/form-data">
+                <input type="file" name="img" id="img" class="btn">
+                <br><br><br>
+                <input type="submit" value="Predict" class="btn">
+                
+            </form>
+        </div>
+        
+    </center>
+</body>
+</html>
